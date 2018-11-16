@@ -116,11 +116,11 @@ body .wrap .quadrant:first-of-type .block:nth-of-type(5) {
   height: 2.5em;
 }
 
-/*.my_social a img {
+.my_social a img {
   height: 1.5em;
 }
 
-@-webkit-keyframes raiseup {
+/*@-webkit-keyframes raiseup {
   80% {
     background: #21201e;
     -webkit-transform: translateY(0);
