@@ -60,6 +60,11 @@ body .wrap .heading h3 span {
   font-weight: 100;
 }
 
+body .wrap .quadrant {
+  position: relative;
+  box-sizing: border-box;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -83,10 +88,6 @@ body .wrap .heading h3 span {
   height: 1.5em;
 }
 
-body .wrap .quadrant {
-  position: relative;
-  box-sizing: border-box;
-}
 body .wrap .quadrant:first-of-type {
   grid-column: 1;
   grid-row: 2 / span 2;
