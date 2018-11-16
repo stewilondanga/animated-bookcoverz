@@ -240,24 +240,25 @@ body .wrap .quadrant:nth-of-type(2) .block:nth-of-type(9) {
   }
 }
 
-/*@keyframes rotate {
+@keyframes rotate {
   90% {
     background: #21201e;
     -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   95% {
     background: #f2cd2e;
     -webkit-transform: rotate(135deg);
-            transform: rotate(135deg);
+    transform: rotate(135deg);
   }
   100% {
     background: #f2cd2e;
     -webkit-transform: rotate(135deg);
-            transform: rotate(135deg);
+    transform: rotate(135deg);
   }
 }
-body .wrap .quadrant:nth-of-type(2) .block:nth-of-type(10) {
+
+/*body .wrap .quadrant:nth-of-type(2) .block:nth-of-type(10) {
   display: none;
 }
 body .wrap .quadrant:nth-of-type(3) {
