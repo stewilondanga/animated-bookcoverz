@@ -166,6 +166,11 @@ body .wrap .quadrant:nth-of-type(2) .block:nth-of-type(8) {
   animation-delay: -16s;
 }
 
+body .wrap .quadrant:nth-of-type(2) .block:nth-of-type(9) {
+  -webkit-animation-delay: -18s;
+  animation-delay: -18s;
+}
+
 .my_social {
   position: absolute;
   top: 25px;
@@ -218,10 +223,6 @@ body .wrap .quadrant:nth-of-type(2) .block:nth-of-type(8) {
 }
 
 /*
-body .wrap .quadrant:nth-of-type(2) .block:nth-of-type(9) {
-  -webkit-animation-delay: -18s;
-          animation-delay: -18s;
-}
 @-webkit-keyframes rotate {
   90% {
     background: #21201e;
