@@ -29,6 +29,19 @@ body .wrap .heading {
   padding: 30px 20px;
 }
 
+body .wrap .heading h1 {
+  grid-column: 1;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 2px;
+  line-height: 1;
+  margin: 0;
+  position: relative;
+  font-variant: small-caps;
+  padding: 0 0 0 10px;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -52,18 +65,6 @@ body .wrap .heading {
   height: 1.5em;
 }
 
-body .wrap .heading h1 {
-  grid-column: 1;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 24px;
-  letter-spacing: 2px;
-  line-height: 1;
-  margin: 0;
-  position: relative;
-  font-variant: small-caps;
-  padding: 0 0 0 10px;
-}
 body .wrap .heading h3 {
   grid-column: 2;
   font-weight: 600;
