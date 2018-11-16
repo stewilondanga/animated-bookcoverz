@@ -258,6 +258,11 @@ body .wrap .quadrant:nth-of-type(4) .block {
   animation: redtilt 4s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite alternate;
 }
 
+body .wrap .quadrant:nth-of-type(4) .block:nth-of-type(even) {
+  -webkit-animation: redtilt2 4s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite alternate;
+  animation: redtilt2 4s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite alternate;
+}
+
 .my_social {
   position: absolute;
   top: 25px;
@@ -382,10 +387,6 @@ body .wrap .quadrant:nth-of-type(4) .block {
 }
 
 /*
-body .wrap .quadrant:nth-of-type(4) .block:nth-of-type(even) {
-  -webkit-animation: redtilt2 4s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite alternate;
-          animation: redtilt2 4s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite alternate;
-}
 body .wrap .quadrant:nth-of-type(4) .block:nth-of-type(1) {
   -webkit-animation-delay: -0.75s;
           animation-delay: -0.75s;
