@@ -9,6 +9,16 @@ body {
   overflow: hidden;
 }
 
+body .wrap {
+  width: 350px;
+  min-width: 350px;
+  height: 500px;
+  background: #ffddd5;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -32,15 +42,6 @@ body {
   height: 1.5em;
 }
 
-body .wrap {
-  width: 350px;
-  min-width: 350px;
-  height: 500px;
-  background: #ffddd5;
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 20% 20% 20% 20% 20%;
-}
 body .wrap .heading {
   grid-column: 1 / span 2;
   grid-row: 1;
