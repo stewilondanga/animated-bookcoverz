@@ -1,3 +1,14 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: radial-gradient(circle at center, #21201e, #060606);
+  font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
+  overflow: hidden;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -21,16 +32,6 @@
   height: 1.5em;
 }
 
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100vh;
-  background: radial-gradient(circle at center, #21201e, #060606);
-  font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
-  overflow: hidden;
-}
 body .wrap {
   width: 350px;
   min-width: 350px;
