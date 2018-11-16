@@ -490,25 +490,25 @@ body .wrap .quadrant:nth-of-type(4) .block:nth-of-type(10) {
   }
 }
 
-/*@keyframes redtilt2 {
+@keyframes redtilt2 {
   85% {
     background: #21201e;
     -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   92.5% {
     background: #d2162c;
     -webkit-transform: rotate(7.5deg);
-            transform: rotate(7.5deg);
+    transform: rotate(7.5deg);
   }
   100% {
     background: #d2162c;
     -webkit-transform: rotate(7.5deg);
-            transform: rotate(7.5deg);
+    transform: rotate(7.5deg);
   }
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
