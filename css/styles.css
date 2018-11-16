@@ -233,6 +233,11 @@ body .wrap .quadrant:nth-of-type(3) .block:nth-of-type(8) {
   animation-delay: -6s;
 }
 
+body .wrap .quadrant:nth-of-type(3) .block:nth-of-type(9) {
+  -webkit-animation-delay: -6.75s;
+  animation-delay: -6.75s;
+}
+
 .my_social {
   position: absolute;
   top: 25px;
@@ -321,10 +326,6 @@ body .wrap .quadrant:nth-of-type(3) .block:nth-of-type(8) {
 }
 
 /*
-body .wrap .quadrant:nth-of-type(3) .block:nth-of-type(9) {
-  -webkit-animation-delay: -6.75s;
-          animation-delay: -6.75s;
-}
 @-webkit-keyframes greenup {
   90% {
     background: #21201e;
