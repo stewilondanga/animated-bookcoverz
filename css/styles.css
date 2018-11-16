@@ -105,13 +105,7 @@ body .wrap .quadrant:first-of-type .block:nth-of-type(5) {
   animation-delay: -10s;
 }
 
-/*body {
-  text-align: center;
-  font-family: courier;
-  background-image: url("../assets/image.jpeg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
+/*
 
 .my_social {
   position: absolute;
