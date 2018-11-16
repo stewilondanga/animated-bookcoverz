@@ -288,6 +288,11 @@ body .wrap .quadrant:nth-of-type(4) .block:nth-of-type(5) {
   animation-delay: -3.75s;
 }
 
+body .wrap .quadrant:nth-of-type(4) .block:nth-of-type(6) {
+  -webkit-animation-delay: -4.5s;
+  animation-delay: -4.5s;
+}
+
 .my_social {
   position: absolute;
   top: 25px;
@@ -412,10 +417,6 @@ body .wrap .quadrant:nth-of-type(4) .block:nth-of-type(5) {
 }
 
 /*
-body .wrap .quadrant:nth-of-type(4) .block:nth-of-type(6) {
-  -webkit-animation-delay: -4.5s;
-          animation-delay: -4.5s;
-}
 body .wrap .quadrant:nth-of-type(4) .block:nth-of-type(7) {
   -webkit-animation-delay: -5.25s;
           animation-delay: -5.25s;
