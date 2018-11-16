@@ -42,6 +42,17 @@ body .wrap .heading h1 {
   padding: 0 0 0 10px;
 }
 
+body .wrap .heading h3 {
+  grid-column: 2;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1.25;
+  position: relative;
+  display: block;
+  padding: 0 0 0 15px;
+  margin-top: 5px;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -65,16 +76,6 @@ body .wrap .heading h1 {
   height: 1.5em;
 }
 
-body .wrap .heading h3 {
-  grid-column: 2;
-  font-weight: 600;
-  font-size: 22px;
-  line-height: 1.25;
-  position: relative;
-  display: block;
-  padding: 0 0 0 15px;
-  margin-top: 5px;
-}
 body .wrap .heading h3 span {
   font-size: 14px;
   display: block;
