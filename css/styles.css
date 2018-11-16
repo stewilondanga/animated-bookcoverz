@@ -120,24 +120,25 @@ body .wrap .quadrant:first-of-type .block:nth-of-type(5) {
   height: 1.5em;
 }
 
-/*@-webkit-keyframes raiseup {
+@-webkit-keyframes raiseup {
   80% {
     background: #21201e;
     -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
   }
   85% {
     background: #4683b6;
     -webkit-transform: translateY(-15px);
-            transform: translateY(-15px);
+    transform: translateY(-15px);
   }
   100% {
     background: #4683b6;
     -webkit-transform: translateY(-15px);
-            transform: translateY(-15px);
+    transform: translateY(-15px);
   }
 }
-@keyframes raiseup {
+
+/*@keyframes raiseup {
   80% {
     background: #21201e;
     -webkit-transform: translateY(0);
