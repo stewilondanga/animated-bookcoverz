@@ -53,6 +53,13 @@ body .wrap .heading h3 {
   margin-top: 5px;
 }
 
+body .wrap .heading h3 span {
+  font-size: 14px;
+  display: block;
+  font-style: italic;
+  font-weight: 100;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -76,12 +83,6 @@ body .wrap .heading h3 {
   height: 1.5em;
 }
 
-body .wrap .heading h3 span {
-  font-size: 14px;
-  display: block;
-  font-style: italic;
-  font-weight: 100;
-}
 body .wrap .quadrant {
   position: relative;
   box-sizing: border-box;
